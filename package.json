@@ -1,0 +1,11 @@
+{
+  "name": "ask_call",
+  "version": "1.0.0",
+  "description": "Display webpage form, call phone with nexmo and play song",
+  "main": "call.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@GJSDUTOIT",
+  "license": "ISC"
+}
