@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+body {
+  background-image: url(/../img/background.jpg), url(/../img/gridtile.png);
+  background-repeat: repeat, repeat;
+  background-size: 210px 320px, 2px;
+  background-blend-mode: darken;
+}
+.message {
+  font-family: 'Indie Flower', cursive;
+  font-size: x-large;
+  color: white;
+}
+img {
+  width: 100px;
+  display: block;
+  opacity: 1;
+  z-index: 1000;
+  transition: all .5s linear;
+}
+#m1 {
+  transition: all .5s linear;
+}
+button {
+  opacity: 1;
+  z-index: 1000;
+}
+.stroke {
+  height: 400px;
+  background-color: black;
+  opacity: 0.84;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
