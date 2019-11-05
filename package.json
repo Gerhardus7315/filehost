@@ -2,9 +2,13 @@
   "name": "ask_call",
   "version": "1.0.0",
   "description": "Display webpage form, call phone with nexmo and play song",
+  "engines" : {
+    "node": "10.16.3", 
+    "npm": "6.9.0"
+  },
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server.js"
   },
   "author": "@GJSDUTOIT",
   "license": "ISC",
