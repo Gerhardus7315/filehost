@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $("#yes").click(function(){
      $("#m2").hide();
+     $("#m3").hide();
      $("#btndiv").hide();
      $("img").css("width", "250px");
      $("#m1").text("YAY!");

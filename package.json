@@ -1,9 +1,9 @@
 {
-  "name": "ask_call",
+  "name": "ask_out",
   "version": "1.0.0",
-  "description": "Display webpage form, call phone with nexmo and play song",
+  "description": "Display webpage, with some animations",
   "engines" : {
-    "node": "10.16.3", 
+    "node": "10.16.3",
     "npm": "6.9.0"
   },
   "main": "server.js",
