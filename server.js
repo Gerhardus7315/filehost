@@ -19,7 +19,7 @@ app.post('/login', function (req, res) {
   name = name.trim();
   name = name.toLowerCase()
   console.log(name);
-  if (name === "anika") {
+  if (name === "avdm97") {
     res.render('index');
   } else {
     res.render('cover');
